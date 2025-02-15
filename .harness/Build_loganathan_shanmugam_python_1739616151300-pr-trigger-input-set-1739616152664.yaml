@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_loganathan_shanmugam_python_1739616151300-pr-trigger-input-set
+  identifier: Build_loganathan_shanmugam_python_1739616151300prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_loganathan_shanmugam_python_1739616151300
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
