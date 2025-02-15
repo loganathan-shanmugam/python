@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_loganathan_shanmugam_python_1739616151300-push-trigger-input-set
+  identifier: Build_loganathan_shanmugam_python_1739616151300pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_loganathan_shanmugam_python_1739616151300
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
